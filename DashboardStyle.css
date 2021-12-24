@@ -1,0 +1,65 @@
+body{
+    background-color: #e7e7e7;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr;
+}
+.metrics{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px 2px;
+    grid-column: 1/6;
+}
+.charts{
+    width: 100%;
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+}
+.tab{
+    background-color: white;
+    text-indent: 10px;
+    width: 95%;
+    height: 75%;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+.tabtext2,.tabtext1{
+    color: #4d4d4d;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabtext1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.tab1text1{
+    color: #48be9b;
+}
+.tab5text1{
+    color: #fd0d1f;
+}
+.overlay{
+    width: 10px;
+    height: 100%;
+    float: left;
+    background-color: #48be9b;
+}
+.sectionTitle{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chart{
+    position: relative;
+    width: 45vw;
+    height: 45vh;
+    background-color: white;
+}

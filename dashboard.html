@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="DashboardStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="sectionTitle metricsTitle">Company Metrics</h1>
+        <div class="metrics">
+            <div class="tab tab1">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab1text1">$406,411.29</h1>
+                <h2 class="tabtext2 tab1text2">Total Revenue</h2>
+            </div>
+            <div class="tab tab2">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab2text1">$620</h1>
+                <h2 class="tabtext2 tab2text2">Total Jobs</h2>
+            </div>
+            <div class="tab tab3">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab3text1">655</h1>
+                <h2 class="tabtext2 tab3text2">Tickets Cleared</h2>
+            </div>
+            <div class="tab tab4">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab4text1">735</h1>
+                <h2 class="tabtext2 tab4text2">Tickets Scheduled</h2>
+            </div>
+            <div class="tab tab5">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab5text1">$110,448.8</h1>
+                <h2 class="tabtext2 tab5text2">Outstanding Amount</h2>
+            </div>
+            <div class="tab tab6">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab6text1">105</h1>
+                <h2 class="tabtext2 tab6text2">Memberships Sold</h2>
+            </div>
+            <div class="tab tab7">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab7text1">436</h1>
+                <h2 class="tabtext2 tab7text2">Jobs Completed</h2>
+            </div>
+            <div class="tab tab8">
+                <div class="overlay"></div>
+                <h1 class="tabtext1 tab8text1">65</h1>
+                <h2 class="tabtext2 tab8text2">Total Canceled</h2>
+            </div>
+        </div>
+        <div class="charts">
+            <div class="RevLoc">
+                <h1 class = "sectionTitle revTitle1">Revenue By Job Location</h1>
+                <div class="chart chart1">
+                    <canvas id="chart1"></canvas>
+                </div>
+            </div>
+            <div class="RevType">
+                <h1 class = "sectionTitle revTitle2">Revenue By Job Type</h1>
+                <div class="chart chart1">
+                    <canvas id="chart2"></canvas>
+                </div>
+            </div>
+            <script src="DashboardScript.js"></script>
+            <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        </div>
+    </div>
+</body>
+</html>
