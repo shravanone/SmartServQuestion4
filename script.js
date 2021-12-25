@@ -1,6 +1,5 @@
 function verifypassword(){   
     var password = document.getElementById("password").value;
-    console.log(password)
     const pattern = /^(?=.*\d)(?=.*[@])(?=.*[a-z])(?=.*[A-Z]).{3,}$/;
     if(password.match(pattern)){
         if(password.match("SmartServTest@123")){
